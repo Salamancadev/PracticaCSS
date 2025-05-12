@@ -1,0 +1,147 @@
+.menu-superior {
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.contenedor-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.logo-busqueda {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 34px;
+  margin-right: 15px;
+}
+
+.logo-busqueda input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 250px;
+}
+
+.nav-menu a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+body {
+  padding-top: 70px; 
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f3f2ef;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
+
+.perfil {
+  background: #fff;
+  width: 700px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.portada {
+  position: relative;
+  height: 200px;
+}
+
+.portada img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.foto-perfil {
+  position: absolute;
+  bottom: -40px;
+  left: 30px;
+  border-radius: 50%;
+  border: 4px solid white;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+}
+
+.foto-perfil img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info-perfil {
+  padding: 60px 20px 20px 20px;
+  text-align: left;
+}
+
+.info-perfil h2 {
+  margin: 0;
+}
+
+.ubicacion {
+  color: gray;
+  font-size: 14px;
+}
+
+.botones {
+  margin-top: 10px;
+}
+
+.botones button {
+  margin-right: 10px;
+  padding: 8px 12px;
+  border: none;
+  background-color: #0a66c2;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.lateral {
+  margin-left: 20px;
+  width: 300px;
+}
+
+.cuadro {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  margin-bottom: 20px;
+}
+
+.cuadro h4 {
+  margin-top: 0;
+}
+
+.cuadro button {
+  background-color: #f8c77e;
+  border: none;
+  padding: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
